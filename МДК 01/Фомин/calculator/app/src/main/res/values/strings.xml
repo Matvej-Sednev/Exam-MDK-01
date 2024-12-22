@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Calc</string>
+    <string name="add_str">+ </string>
+    <string name="b_str">b: </string>
+    <string name="cos_str">cos </string>
+    <string name="minus_str">- </string>
+    <string name="umn_str">* </string>
+    <string name="del_str">/ </string>
+    <string name="sin_str">sin </string>
+    <string name="tan_str">tan </string>
+    <string name="pow_str">pow </string>
+    <string name="sqrt_str">sqrt </string>
+    <string name="str_result">Result:  </string>
+    <string name="radio_but">Convert grad</string>
+    <string name="radio_but_two">Convert rad</string>
+</resources>

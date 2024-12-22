@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/per_grad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="do_stuff"
+            android:text="@string/radio_but" />
+
+        <RadioButton
+            android:id="@+id/per_rad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="do_stuff"
+            android:text="@string/radio_but_two" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/str_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity=""
+            android:layout_marginLeft="1pt"
+            android:text="a:"
+            android:textSize="15pt">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/input_a"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="1pt"
+            android:layout_marginBottom="10pt"
+            android:ems="10"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:id="@+id/per_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/b_str"
+            android:textSize="15pt" />
+
+        <EditText
+            android:id="@+id/b_num"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1pt"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="text" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/str_res"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_result"
+            android:textSize="15pt">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/res_num"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginBottom="200dp"
+            android:ems="10"
+            android:textSize="10pt">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/but_plus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="do_stuff"
+            android:text="@string/add_str">
+
+        </Button>
+
+        <Button
+            android:id="@+id/but_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="do_stuff"
+            android:text="@string/minus_str">
+
+        </Button>
+        <Button
+            android:id="@+id/but_umn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/umn_str"
+            android:onClick="do_stuff">
+        </Button>
+
+        <Button
+            android:id="@+id/but_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/del_str"
+            android:onClick="do_stuff">
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/but_cos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cos_str"
+            android:onClick="do_stuff">
+
+        </Button>
+
+        <Button
+            android:id="@+id/but_sin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:onClick="do_stuff"
+            android:text="@string/sin_str"></Button>
+        <Button
+            android:id="@+id/but_tan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tan_str"
+            android:onClick="do_stuff">
+        </Button>
+        <Button
+            android:id="@+id/but_pow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pow_str"
+            android:onClick="do_stuff">
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/but_sqrt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sqrt_str"
+            android:onClick="do_stuff">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

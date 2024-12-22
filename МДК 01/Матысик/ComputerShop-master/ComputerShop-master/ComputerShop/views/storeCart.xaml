@@ -1,0 +1,26 @@
+﻿<Window x:Class="ComputerShop.views.storeCart"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ComputerShop.views"
+        mc:Ignorable="d"
+        Title="storeCart" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="60*"/>
+            <RowDefinition Height="20*"/>
+        </Grid.RowDefinitions>
+        <Button Grid.Column="1" Grid.Row="0" Content="Назад" x:Name="btReturn" Click="btReturn_Click" FontSize="35"/>
+        <Button Grid.Column="1" Grid.Row="2" Content="Перейти к оформлению" x:Name="btForm" Click="btForm_Click" FontSize="34"/>
+        <DataGrid Grid.Row="1" Grid.ColumnSpan="2">
+            
+        </DataGrid>
+        <TextBlock x:Name="tbBalance" Text="Баланс на карте:" FontSize="35" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="2"/>
+    </Grid>
+</Window>

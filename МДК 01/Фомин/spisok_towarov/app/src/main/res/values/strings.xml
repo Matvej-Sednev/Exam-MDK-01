@@ -1,0 +1,14 @@
+
+<resources>
+        <string name="app_name">lab04</string>
+        <string name="FIO">Sednev</string>
+        <string name="AppleChek">Apple</string>
+        <string name="StrawberryChek">Strawberry</string>
+        <string name="BlueberryChek">Blueberry</string>
+        <string name="PotatoesChek">Potatoes</string>
+        <string name="ButtonCalculate">Calculate</string>
+        <string name="Values">Price</string>
+        <string name="Quantity">quantity</string>
+        <string name="Dialog">Dialog window</string>
+        <string name="Toast">Message</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">lab03_new</string>
+    <string name="conv_but">convert</string>
+    <string name="from">From: </string>
+    <string name="To">to: </string>
+    <string name="result">Result</string>
+</resources>
